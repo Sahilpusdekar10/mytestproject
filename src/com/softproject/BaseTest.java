@@ -41,9 +41,9 @@ public class BaseTest {
 		Thread.sleep(2000);
 	}
 
-//	@AfterTest
-//	public void tearDown() {
-//		driver.quit();
-//	}
+	@AfterTest
+	public void tearDown() {
+		driver.quit();
+	}
 
 }
